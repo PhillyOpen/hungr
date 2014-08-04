@@ -16,7 +16,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editText"
-        android:text="Hungry?" />
+        android:text="Hungry?"
+        android:paddingLeft="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
