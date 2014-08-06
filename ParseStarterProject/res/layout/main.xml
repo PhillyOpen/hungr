@@ -2,22 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:id="@+id/mainLayout">
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Vendor Registration"
-        android:id="@+id/button"
+        android:id="@+id/vendorRegistration"
         android:layout_gravity="right" />
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Hungry?"
-        android:paddingLeft="20dp" />
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,16 +38,13 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp" />
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2"
-        android:text="Or"
-        android:textAlignment="viewEnd"
-        android:textIsSelectable="false"
-        android:typeface="monospace"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="20dp" />
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="or"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -59,16 +59,13 @@
         android:paddingBottom="20dp"
         android:background="#ff56acee" />
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText4"
-        android:text="Or"
-        android:textAlignment="viewEnd"
-        android:textIsSelectable="false"
-        android:typeface="monospace"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="20dp" />
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="or"
+        android:id="@+id/textView7"
+        android:layout_gravity="center_horizontal" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -83,12 +80,13 @@
         android:paddingBottom="20dp"
         android:background="#ffda4735" />
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText3"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Menu"
-        android:textAlignment="viewStart" />
+        android:id="@+id/textView5"
+        android:paddingBottom="10dp" />
 
     <ExpandableListView
         android:layout_width="match_parent"
